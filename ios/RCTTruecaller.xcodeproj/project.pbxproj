@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AD1DC2B1CFA802F008C092E /* RCTTruecaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1DC2A1CFA802F008C092E /* RCTTruecaller.m */; };
+		9C0189492085B0780098B302 /* NSURL+TrueSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C01892F2085B0770098B302 /* NSURL+TrueSDK.m */; };
+		9C01894A2085B0780098B302 /* TCError.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0189312085B0770098B302 /* TCError.m */; };
+		9C01894B2085B0780098B302 /* TCTrueProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0189332085B0770098B302 /* TCTrueProfile.m */; };
+		9C01894C2085B0780098B302 /* TCTrueProfileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0189352085B0770098B302 /* TCTrueProfileRequest.m */; };
+		9C01894D2085B0780098B302 /* TCTrueProfileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0189372085B0770098B302 /* TCTrueProfileResponse.m */; };
+		9C01894E2085B0780098B302 /* TCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C01893A2085B0770098B302 /* TCUtils.m */; };
+		9C01894F2085B0780098B302 /* TCVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C01893C2085B0780098B302 /* TCVersion.m */; };
+		9C0189502085B0780098B302 /* TCProfileRequestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0189452085B0780098B302 /* TCProfileRequestButton.m */; };
+		9C0189512085B0780098B302 /* TCTrueSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0189472085B0780098B302 /* TCTrueSDK.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRCTTruecaller.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTTruecaller.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD1DC291CFA802F008C092E /* RCTTruecaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTTruecaller.h; sourceTree = "<group>"; };
+		3AD1DC2A1CFA802F008C092E /* RCTTruecaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTTruecaller.m; sourceTree = "<group>"; };
+		9C01892E2085B0770098B302 /* NSURL+TrueSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+TrueSDK.h"; sourceTree = "<group>"; };
+		9C01892F2085B0770098B302 /* NSURL+TrueSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+TrueSDK.m"; sourceTree = "<group>"; };
+		9C0189302085B0770098B302 /* TCError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCError.h; sourceTree = "<group>"; };
+		9C0189312085B0770098B302 /* TCError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCError.m; sourceTree = "<group>"; };
+		9C0189322085B0770098B302 /* TCTrueProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTrueProfile.h; sourceTree = "<group>"; };
+		9C0189332085B0770098B302 /* TCTrueProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTrueProfile.m; sourceTree = "<group>"; };
+		9C0189342085B0770098B302 /* TCTrueProfileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTrueProfileRequest.h; sourceTree = "<group>"; };
+		9C0189352085B0770098B302 /* TCTrueProfileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTrueProfileRequest.m; sourceTree = "<group>"; };
+		9C0189362085B0770098B302 /* TCTrueProfileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTrueProfileResponse.h; sourceTree = "<group>"; };
+		9C0189372085B0770098B302 /* TCTrueProfileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTrueProfileResponse.m; sourceTree = "<group>"; };
+		9C0189382085B0770098B302 /* TCTrueSDKLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTrueSDKLogger.h; sourceTree = "<group>"; };
+		9C0189392085B0770098B302 /* TCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCUtils.h; sourceTree = "<group>"; };
+		9C01893A2085B0770098B302 /* TCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCUtils.m; sourceTree = "<group>"; };
+		9C01893B2085B0770098B302 /* TCVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCVersion.h; sourceTree = "<group>"; };
+		9C01893C2085B0780098B302 /* TCVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCVersion.m; sourceTree = "<group>"; };
+		9C01893E2085B0780098B302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C0189412085B0780098B302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9C0189422085B0780098B302 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9C0189432085B0780098B302 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9C0189442085B0780098B302 /* TCProfileRequestButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCProfileRequestButton.h; sourceTree = "<group>"; };
+		9C0189452085B0780098B302 /* TCProfileRequestButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCProfileRequestButton.m; sourceTree = "<group>"; };
+		9C0189462085B0780098B302 /* TCTrueSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTrueSDK.h; sourceTree = "<group>"; };
+		9C0189472085B0780098B302 /* TCTrueSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTrueSDK.m; sourceTree = "<group>"; };
+		9C0189482085B0780098B302 /* TrueSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueSDK.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRCTTruecaller.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				9C01892B2085B0770098B302 /* TrueSDK */,
+				3AD1DC291CFA802F008C092E /* RCTTruecaller.h */,
+				3AD1DC2A1CFA802F008C092E /* RCTTruecaller.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		9C01892B2085B0770098B302 /* TrueSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9C01892C2085B0770098B302 /* Core */,
+				9C01893D2085B0780098B302 /* External */,
+				9C0189482085B0780098B302 /* TrueSDK.h */,
+			);
+			path = TrueSDK;
+			sourceTree = "<group>";
+		};
+		9C01892C2085B0770098B302 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9C01892D2085B0770098B302 /* Categories */,
+				9C0189302085B0770098B302 /* TCError.h */,
+				9C0189312085B0770098B302 /* TCError.m */,
+				9C0189322085B0770098B302 /* TCTrueProfile.h */,
+				9C0189332085B0770098B302 /* TCTrueProfile.m */,
+				9C0189342085B0770098B302 /* TCTrueProfileRequest.h */,
+				9C0189352085B0770098B302 /* TCTrueProfileRequest.m */,
+				9C0189362085B0770098B302 /* TCTrueProfileResponse.h */,
+				9C0189372085B0770098B302 /* TCTrueProfileResponse.m */,
+				9C0189382085B0770098B302 /* TCTrueSDKLogger.h */,
+				9C0189392085B0770098B302 /* TCUtils.h */,
+				9C01893A2085B0770098B302 /* TCUtils.m */,
+				9C01893B2085B0770098B302 /* TCVersion.h */,
+				9C01893C2085B0780098B302 /* TCVersion.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9C01892D2085B0770098B302 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9C01892E2085B0770098B302 /* NSURL+TrueSDK.h */,
+				9C01892F2085B0770098B302 /* NSURL+TrueSDK.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		9C01893D2085B0780098B302 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				9C01893E2085B0780098B302 /* Assets.xcassets */,
+				9C01893F2085B0780098B302 /* Languages */,
+				9C0189442085B0780098B302 /* TCProfileRequestButton.h */,
+				9C0189452085B0780098B302 /* TCProfileRequestButton.m */,
+				9C0189462085B0780098B302 /* TCTrueSDK.h */,
+				9C0189472085B0780098B302 /* TCTrueSDK.m */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		9C01893F2085B0780098B302 /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				9C0189402085B0780098B302 /* Localizable.strings */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RCTTruecaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RCTTruecaller" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTTruecaller;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRCTTruecaller.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RCTTruecaller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				hi,
+				hr,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RCTTruecaller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD1DC2B1CFA802F008C092E /* RCTTruecaller.m in Sources */,
+				9C01894A2085B0780098B302 /* TCError.m in Sources */,
+				9C01894B2085B0780098B302 /* TCTrueProfile.m in Sources */,
+				9C01894F2085B0780098B302 /* TCVersion.m in Sources */,
+				9C01894D2085B0780098B302 /* TCTrueProfileResponse.m in Sources */,
+				9C0189512085B0780098B302 /* TCTrueSDK.m in Sources */,
+				9C01894E2085B0780098B302 /* TCUtils.m in Sources */,
+				9C01894C2085B0780098B302 /* TCTrueProfileRequest.m in Sources */,
+				9C0189502085B0780098B302 /* TCProfileRequestButton.m in Sources */,
+				9C0189492085B0780098B302 /* NSURL+TrueSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C0189402085B0780098B302 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C0189412085B0780098B302 /* en */,
+				9C0189422085B0780098B302 /* hi */,
+				9C0189432085B0780098B302 /* hr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				WARNING_CFLAGS = (
+					"-Wextra",
+					"-Wall",
+					"-Wno-semicolon-before-method-body",
+					"-Wno-unused-parameter",
+				);
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Wextra",
+					"-Wall",
+					"-Wno-semicolon-before-method-body",
+					"-Wno-unused-parameter",
+				);
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../../ios/**",
+					"$(SRCROOT)/../../../node_modules/react-native-firestack/ios/**",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React",
+					"$(SRCROOT)/../../../ios",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RCTTruecaller;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../../ios/**",
+					"$(SRCROOT)/../../../node_modules/react-native-firestack/ios/**",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React",
+					"$(SRCROOT)/../../../ios",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RCTTruecaller;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RCTTruecaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RCTTruecaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
