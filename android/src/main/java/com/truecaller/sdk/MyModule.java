@@ -2,6 +2,7 @@ package com.truecaller.sdk;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
@@ -53,6 +54,12 @@ public class MyModule extends ReactContextBaseJavaModule implements ITrueCallbac
         return "MyModule";
     }
 
+    
+    @ReactMethod
+    public boolean isTruecallerInstalled() {
+        return isAppInstalled("com.truecaller");
+    }
+
 
     @ReactMethod
     public void initializeClient() {
@@ -82,9 +89,6 @@ public class MyModule extends ReactContextBaseJavaModule implements ITrueCallbac
         Activity activity = getCurrentActivity();
         mTrueClient.getTruecallerUserProfile(activity);
     }
-
-
-
 
 
     @ReactMethod
@@ -166,5 +170,17 @@ public class MyModule extends ReactContextBaseJavaModule implements ITrueCallbac
         reactContext
                 .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
                 .emit(eventName, params);
+    }
+
+    private boolean isAppInstalled(String uri) {
+        PackageManager pm = reactContext.getPackageManager();
+        boolean installed;
+        try {
+            pm.getPackageInfo(uri, PackageManager.GET_ACTIVITIES);
+            installed = true;
+        } catch (PackageManager.NameNotFoundException e) {
+            installed = false;
+        }
+            return installed;
     }
 }
