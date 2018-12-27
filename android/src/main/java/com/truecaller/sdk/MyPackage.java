@@ -13,24 +13,24 @@ import java.util.List;
 
 public class MyPackage implements ReactPackage {
 
-  MyModule myModule;
-  ReactApplicationContext mReactContext;
+    MyModule myModule;
+    ReactApplicationContext mReactContext;
 
-  @Override
-  public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-    mReactContext=reactContext;
-    List<NativeModule> modules = new ArrayList<>();
-    myModule=new MyModule(reactContext);
-    modules.add(myModule);
-    return modules;
-  }
+    @Override
+    public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
+        mReactContext = reactContext;
+        List<NativeModule> modules = new ArrayList<>();
+        myModule = new MyModule(reactContext);
+        modules.add(myModule);
+        return modules;
+    }
 
-  public List<Class<? extends JavaScriptModule>> createJSModules() {
-    return Collections.emptyList();
-  }
+    public List<Class<? extends JavaScriptModule>> createJSModules() {
+        return Collections.emptyList();
+    }
 
-  @Override
-  public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
-    return Collections.emptyList();
-  }
+    @Override
+    public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
+        return Collections.emptyList();
+    }
 }
